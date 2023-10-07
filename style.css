@@ -1,0 +1,74 @@
+/* Style h1 */
+h1 {
+  color: black;
+  text-align: center;
+}
+
+h1 span {
+  color: orange;
+}
+
+/* Style form */
+form {
+  width: 380px;
+  padding: 10px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style input text */
+input[type="text"] {
+  width: 100%;
+  padding: 6px 10px;
+  margin-bottom: 0px; /* Tambahkan margin di bawah input text */
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style input submit */
+input[type="submit"] {
+  width: 20%;
+  background-color: #4caf50;
+  color: white;
+  padding: 6px 12px;
+  margin-top: -10px; /* Tambahkan margin di atas input submit */
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style table */
+#table-container {
+  width: 90%;
+  margin: 20px auto;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid black; /* Tambahkan garis tebal di sekitar tabel */
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #050000;
+  border-right: 1px solid #050000; /* Tambahkan garis di sisi kanan setiap kolom */
+}
+
+th {
+  background-color: #4caf50;
+  color: whitesmoke;
+}
